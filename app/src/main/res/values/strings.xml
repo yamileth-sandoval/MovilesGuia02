@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovilesGuia02</string>
+    <string name="credencial">Contraseña</string>
+    <string name="instruccion">INGRESE SUS DATOS</string>
+    <string name="inicio_sesion">INICIAR SESION</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="materia">Materia Favorita:</string>
+    <string name="ej_materia">Ej. Programación</string>
+    <string name="comida">Comida Favorita:</string>
+    <string name="ej_comida">Ej. Pupusa</string>
+    <string name="deporte">Deporte Favorito:</string>
+    <string name="ej_deporte">Ej. Fútbol</string>
+    <string name="procesar">PROCESAR</string>
+    <string name="nombre">Nombre: \n Sandra Yamileth Sandoval Molina</string>
+    <string name="codigo">Codigo: \n SM16-I04-001</string>
+    <string name="correlativo">Correlativo: \n #12</string>
+    <string name="misDatos">Mis Datos</string>
+</resources>

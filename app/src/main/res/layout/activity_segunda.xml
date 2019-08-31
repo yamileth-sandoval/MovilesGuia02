@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".segunda">
+
+    <TextView
+        android:id="@+id/prueba"
+        android:text="@string/materia"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/actMateria"
+        android:hint="@string/ej_materia"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/comida"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/actComida"
+        android:hint="@string/ej_comida"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/deporte"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/actDeporte"
+        android:hint="@string/ej_deporte"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/pgbCargar"
+        android:progress="0"
+        android:max="100"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnProcesar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/procesar"
+        android:onClick="clickProcesar"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+</LinearLayout>

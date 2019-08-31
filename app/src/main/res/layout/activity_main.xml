@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/instruccion"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtCredencial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/credencial"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:padding="10dp"
+        android:text="@string/inicio_sesion"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnMisDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:onClick="clickMisDatos"
+        android:text="@string/misDatos"
+        android:textSize="20sp" />
+</LinearLayout>
